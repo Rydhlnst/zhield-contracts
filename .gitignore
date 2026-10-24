@@ -1,0 +1,27 @@
+node_modules/
+lib/
+out/
+cache/
+# Forge broadcast logs; the deployed addresses live in deployments/robinhood.json.
+broadcast/
+# Build intermediates. The proving key, wasm, verification key and Poseidon
+# bytecode stay in git: the committed Groth16Verifier.sol only accepts proofs
+# from this exact withdraw.zkey.
+build/pot15.ptau
+build/withdraw_0000.zkey
+build/withdraw.r1cs
+build/withdraw.sym
+build/*.runtime
+build/*.creation
+build/*.args
+build/withdraw_js/*.js
+# Notes are the only key to a deposit. Never commit them.
+notes/
+deployments/local-*.json
+epochs/
+# Holder-rewards bot state (back it up elsewhere) and the published proofs.
+rewards/state.json
+rewards/latest.json
+
+# The cached OFAC list (scripts/screening.mjs)
+screening/ofac-eth.txt

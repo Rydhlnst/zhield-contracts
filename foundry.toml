@@ -1,0 +1,16 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc_version = "0.8.24"
+optimizer = true
+optimizer_runs = 200
+# Robinhood Chain runs Cancun opcodes: the NVIDIA Robinhood Token on mainnet uses them, and
+# its code fails under an older target in fork tests. Our bytecode is checked on the live node too.
+evm_version = "cancun"
+# Tests build real Groth16 proofs with snarkjs through FFI.
+ffi = true
+fs_permissions = [{ access = "read", path = "./build" }, { access = "read-write", path = "./deployments" }]
+
+[rpc_endpoints]
+robinhood = "https://rpc.mainnet.chain.robinhood.com"

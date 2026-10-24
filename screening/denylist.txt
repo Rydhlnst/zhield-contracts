@@ -1,0 +1,4 @@
+# Source addresses the screening operator never approves, one per line (0x…).
+# The OFAC SDN list is checked automatically (screening/ofac-eth.txt, refreshed by
+# scripts/screening.mjs), and Chainalysis too when CHAINALYSIS_API_KEY is set.
+# List anything else here: exploiters, drainers, addresses from a public incident.

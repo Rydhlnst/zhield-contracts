@@ -1,0 +1,4 @@
+# Addresses that never earn holder rewards, one per line.
+# Contracts (the Pons curve, Uniswap pools, lockers) and the vault are left out
+# automatically; list wallets here, such as team or treasury wallets.
+0x000000000000000000000000000000000000dEaD

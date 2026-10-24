@@ -1,0 +1,23 @@
+{
+  "chainId": 4663,
+  "feeRecipient": "0x637E03b86798B46c0658eF09dF160a0ebb1516DF",
+  "hourlyCap": 50000000000000000,
+  "operator": "0xa9DBed8cC0Dbf30Eb17f590b1F0125149098D125",
+  "owner": "0xa9DBed8cC0Dbf30Eb17f590b1F0125149098D125",
+  "poolA": "0xd621B4D3bBfE5C61846C0e97E4b1112596dcc0f6",
+  "poolB": "0x6CE82673b92a7544879f90eF79109663ec56FC59",
+  "poolC": "0xF2b39366662e0b7163026DcbA4cDD70D8F5514ac",
+  "poseidonT2": "0x115271B0233340228CfaeB3F009868A1473FEa05",
+  "poseidonT3": "0x88EC7e02a26783Dd660C7CB8c359C076E33C71E5",
+  "publisher": "0xa9DBed8cC0Dbf30Eb17f590b1F0125149098D125",
+  "registry": "0xC245Fa46b7DdAD9889F383b889F670c86DC9EB2d",
+  "rewardToken": "0xd0601CE157Db5bdC3162BbaC2a2C8aF5320D9EEC",
+  "vault": "0x637E03b86798B46c0658eF09dF160a0ebb1516DF",
+  "verifier": "0xD8cF301F6f8a478f657dB6eB3d7DA8c2c275C159",
+  "deployBlock": 96035227,
+  "relayer": "0xe24b7D97Fe2094ca1e3c02D92dD27a410639D480",
+  "zhield": "0x026284665239cae9BDE24892cEf14c6A6C824442",
+  "zhieldBlock": 96043122,
+  "gistId": "74f8f82d6f09726227e7f43f5e31cfff",
+  "proofsUrl": "https://gist.githubusercontent.com/Rydhlnst/74f8f82d6f09726227e7f43f5e31cfff/raw/latest.json"
+}
